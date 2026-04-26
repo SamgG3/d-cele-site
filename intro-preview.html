@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D-C&ecirc;l&ecirc; | Intro &Ouml;nizleme</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Manrope:wght@500;700&family=Parisienne&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #020202;
+      --gold: #d9b96e;
+      --gold-light: #f5d98a;
+      --soft: rgba(245, 217, 138, 0.68);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--gold-light);
+      background:
+        radial-gradient(circle at 50% 42%, rgba(217, 185, 110, 0.14), transparent 28%),
+        linear-gradient(180deg, #050505 0%, #000 100%);
+      font-family: "Manrope", sans-serif;
+    }
+
+    .intro {
+      position: relative;
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+      text-align: center;
+      animation: none;
+    }
+
+    .intro-logo {
+      width: clamp(92px, 20vw, 168px);
+      aspect-ratio: 1;
+      object-fit: contain;
+      opacity: 0;
+      transform: translateY(18px) scale(0.92);
+      filter: drop-shadow(0 0 28px rgba(217, 185, 110, 0.26));
+      animation: logoReveal 0.8s ease 0.05s forwards;
+    }
+
+    .brand-name {
+      margin: 0;
+      font-family: "Cinzel", serif;
+      font-size: clamp(2.6rem, 8vw, 5.8rem);
+      line-height: 0.92;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      opacity: 0;
+      transform: translateY(14px) scale(0.98);
+      text-shadow: 0 0 34px rgba(217, 185, 110, 0.26);
+      animation: brandReveal 0.85s ease 0.62s forwards;
+    }
+
+    .divider {
+      width: min(280px, 62vw);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      transform: scaleX(0);
+      opacity: 0;
+      animation: lineReveal 0.65s ease 1.3s forwards;
+    }
+
+    .tagline {
+      position: relative;
+      margin: 0;
+      font-family: "Parisienne", cursive;
+      font-size: clamp(2rem, 7vw, 4.4rem);
+      color: #fff3cf;
+      opacity: 0;
+      transform: translateY(8px);
+      text-shadow: 0 0 22px rgba(245, 217, 138, 0.22);
+      animation: taglineReveal 0.85s ease 1.58s forwards;
+    }
+
+    .tagline::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, var(--black) 16%, var(--black));
+      animation: handwriting 0.95s ease 1.64s forwards;
+    }
+
+    .hint {
+      position: fixed;
+      left: 50%;
+      bottom: 28px;
+      transform: translateX(-50%);
+      margin: 0;
+      color: rgba(245, 217, 138, 0.42);
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    @keyframes brandReveal {
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes lineReveal {
+      to {
+        opacity: 1;
+        transform: scaleX(1);
+      }
+    }
+
+    @keyframes taglineReveal {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes handwriting {
+      to {
+        transform: translateX(105%);
+      }
+    }
+
+    @keyframes introExit {
+      to {
+        opacity: 0;
+        transform: scale(1.02);
+      }
+    }
+
+    @keyframes logoReveal {
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="intro" aria-label="D-C&ecirc;l&ecirc; a&ccedil;&#305;l&#305;&#351; animasyonu &ouml;nizlemesi">
+    <img class="intro-logo" src="assets/intro-logo-dc.png" alt="Daban-C&ecirc;l&ecirc; DC logosu">
+    <h1 class="brand-name">D-C&ecirc;l&ecirc;</h1>
+    <div class="divider" aria-hidden="true"></div>
+    <p class="tagline">K&ouml;klerden do&#287;an prestij</p>
+  </main>
+  <p class="hint">Intro &ouml;nizleme</p>
+</body>
+</html>
