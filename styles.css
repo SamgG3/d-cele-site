@@ -904,6 +904,11 @@ h4,
   padding-top: 16px;
 }
 
+.signature-mark {
+  color: var(--gold-strong);
+  letter-spacing: 0.08em;
+}
+
 .cookie-notice {
   position: fixed;
   left: 18px;
