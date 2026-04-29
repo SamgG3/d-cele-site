@@ -1701,3 +1701,14 @@ h4,
     grid-template-columns: 1fr;
   }
 }
+
+
+.category-card { position: relative; }
+.stretched-link { position: absolute; inset: 0; z-index: 1; }
+.category-card .category-head,
+.category-card .category-body { position: relative; z-index: 2; }
+.contact-inline-card a,
+.dropdown-submenu a,
+.dropdown-group-link,
+.mobile-subnav-links a,
+.hero-actions a { position: relative; z-index: 3; }
