@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="site-header">
-    <a class="brand" href="index.html">
+    <a class="brand brand-home-link" href="index.html" onclick="sessionStorage.setItem('dcIntro','1')">
       <img class="brand-logo" src="assets/logo-dc-symbol.png" alt="Daban-C&ecirc;l&ecirc; DC logosu">
       <span class="brand-text">D-C&ecirc;l&ecirc;</span>
     </a>
@@ -20,32 +20,22 @@
       <div class="nav-item dropdown">
         <a class="dropdown-toggle active-section" href="erkek.html">Erkek <span class="dropdown-caret">&#9662;</span></a>
         <div class="dropdown-panel">
-          <p class="dropdown-label">Erkek Spor Kategorileri</p>
+          <p class="dropdown-label">Erkek Kategorileri</p>
           <div class="dropdown-grid">
-            <a href="erkek.html#erkek-tisort">Ti&#351;&ouml;rt</a>
-            <a href="erkek.html#erkek-atlet">Atlet</a>
-            <a href="erkek.html#erkek-sweatshirt">Sweatshirt</a>
-            <a href="erkek.html#erkek-sort">&#350;ort</a>
-            <a href="erkek.html#erkek-esofman">E&#351;ofman</a>
-            <a href="erkek.html#erkek-aksesuar">Aksesuar</a>
-            <a href="erkek.html#erkek-boxer">Boxer</a>
+            <a href="erkek.html#erkek-tops">Tops</a>
+            <a href="erkek.html#erkek-bottoms">Bottoms</a>
+            <a href="erkek.html#erkek-essentials">Essentials</a>
           </div>
         </div>
       </div>
       <div class="nav-item dropdown">
         <a class="dropdown-toggle" href="kadin.html">Kad&#305;n <span class="dropdown-caret">&#9662;</span></a>
         <div class="dropdown-panel">
-          <p class="dropdown-label">Kad&#305;n Spor Kategorileri</p>
+          <p class="dropdown-label">Kad&#305;n Kategorileri</p>
           <div class="dropdown-grid">
-            <a href="kadin.html#kadin-tisort">Ti&#351;&ouml;rt</a>
-            <a href="kadin.html#kadin-crop">Crop Top</a>
-            <a href="kadin.html#kadin-bra">Spor Bra</a>
-            <a href="kadin.html#kadin-sweatshirt">Sweatshirt</a>
-            <a href="kadin.html#kadin-tayt">Tayt</a>
-            <a href="kadin.html#kadin-sort">Biker &#350;ort</a>
-            <a href="kadin.html#kadin-studio">Studio Essentials</a>
-            <a href="kadin.html#kadin-atlet">Antrenman &Uuml;st&uuml;</a>
-            <a href="kadin.html#kadin-aksesuar">Aksesuar</a>
+            <a href="kadin.html#kadin-tops">Tops</a>
+            <a href="kadin.html#kadin-bottoms">Bottoms</a>
+            <a href="kadin.html#kadin-essentials">Essentials</a>
           </div>
         </div>
       </div>
@@ -74,29 +64,19 @@
           </div>
         </div>
         <div class="mobile-nav-group">
-          <strong>Erkek Spor</strong>
+          <strong>Erkek</strong>
           <div class="mobile-nav-links">
-            <a href="erkek.html#erkek-tisort">Ti&#351;&ouml;rt</a>
-            <a href="erkek.html#erkek-atlet">Atlet</a>
-            <a href="erkek.html#erkek-sweatshirt">Sweatshirt</a>
-            <a href="erkek.html#erkek-sort">&#350;ort</a>
-            <a href="erkek.html#erkek-esofman">E&#351;ofman</a>
-            <a href="erkek.html#erkek-aksesuar">Aksesuar</a>
-            <a href="erkek.html#erkek-boxer">Boxer</a>
+            <a href="erkek.html#erkek-tops">Tops</a>
+            <a href="erkek.html#erkek-bottoms">Bottoms</a>
+            <a href="erkek.html#erkek-essentials">Essentials</a>
           </div>
         </div>
         <div class="mobile-nav-group">
-          <strong>Kad&#305;n Spor</strong>
+          <strong>Kad&#305;n</strong>
           <div class="mobile-nav-links">
-            <a href="kadin.html#kadin-tisort">Ti&#351;&ouml;rt</a>
-            <a href="kadin.html#kadin-crop">Crop Top</a>
-            <a href="kadin.html#kadin-bra">Spor Bra</a>
-            <a href="kadin.html#kadin-sweatshirt">Sweatshirt</a>
-            <a href="kadin.html#kadin-tayt">Tayt</a>
-            <a href="kadin.html#kadin-sort">Biker &#350;ort</a>
-            <a href="kadin.html#kadin-studio">Studio Essentials</a>
-            <a href="kadin.html#kadin-atlet">Antrenman &Uuml;st&uuml;</a>
-            <a href="kadin.html#kadin-aksesuar">Aksesuar</a>
+            <a href="kadin.html#kadin-tops">Tops</a>
+            <a href="kadin.html#kadin-bottoms">Bottoms</a>
+            <a href="kadin.html#kadin-essentials">Essentials</a>
           </div>
         </div>
       </div>
@@ -108,77 +88,35 @@
     <section class="subpage-hero">
       <div>
         <p class="eyebrow">Erkek Spor Koleksiyonu</p>
-        <h1 class="subpage-title">Erkek spor taraf&#305; kategori kategori haz&#305;r</h1>
-        <p class="hero-text">Burada g&ouml;rece&#287;in t&uuml;m alanlar aktif giyime g&ouml;re ayr&#305;ld&#305;. Sen foto&#287;raf att&#305;k&ccedil;a ilgili spor kategori kutusuna do&#287;rudan yerle&#351;tirece&#287;im.</p>
+        <h1 class="subpage-title">Erkek koleksiyonu net, g&uuml;&ccedil;l&uuml; ve sade bir dille sunuluyor</h1>
+        <p class="hero-text">Performans hissini g&uuml;nl&uuml;k stil esteti&#287;iyle bulu&#351;turan erkek se&ccedil;kileri; temiz siluetler, kontroll&uuml; detaylar ve zamans&#305;z bir spor giyim duru&#351;uyla bir araya geliyor.</p>
       </div>
       <div class="hero-panel">
-        <strong>Erkek Spor Yap&#305;s&#305;</strong>
+        <strong>Erkek Koleksiyon Yap&#305;s&#305;</strong>
         <ul>
-          <li>Ti&#351;&ouml;rt ve atlet &uuml;st ak&#305;&#351;&#305;</li>
-          <li>Sweatshirt ve g&uuml;nl&uuml;k spor &uuml;stler</li>
-          <li>&#350;ort ve e&#351;ofman alt grup yap&#305;s&#305;</li>
-          <li>Aksesuar ve boxer alan&#305;</li>
+          <li>Tops: aktif &uuml;st giyim se&ccedil;kileri</li>
+          <li>Bottoms: hareket odakl&#305; alt par&ccedil;alar</li>
+          <li>Essentials: g&uuml;nl&uuml;k ritmi tamamlayan temel se&ccedil;kiler</li>
         </ul>
-        <span class="support-note">Spor Foto&#287;raf Yerleri Haz&#305;r</span>
+        <span class="support-note">D-C&ecirc;l&ecirc; Erkek Se&ccedil;kisi</span>
       </div>
     </section>
 
     <section class="subpage-grid">
-      <article class="category-card category-anchor" id="erkek-tisort"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>Ti&#351;&ouml;rt</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Erkek Ti&#351;&ouml;rt</strong>Performans veya g&uuml;nl&uuml;k spor &uuml;st g&ouml;rselleri buraya gelecek.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-TS-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-atlet"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>Atlet / Performans &Uuml;st</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Erkek Atlet</strong>Antrenman odakl&#305; erkek &uuml;st g&ouml;rselleri burada yer alacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-AT-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-sweatshirt"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>Sweatshirt / Hoodie</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Sweatshirt</strong>Is&#305;tma, g&uuml;nl&uuml;k veya antrenman &uuml;stleri burada toplanacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-SW-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-sort"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>&#350;ort</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>&#350;ort</strong>Ko&#351;u, fitness veya g&uuml;nl&uuml;k aktif kullan&#305;m modelleri bu alan i&ccedil;in haz&#305;r.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-SR-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-esofman"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>E&#351;ofman / Tak&#305;m Alt&#305;</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>E&#351;ofman</strong>Jogger, tak&#305;m alt&#305; ve rahat spor alt grubu burada yer alacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-ES-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-aksesuar"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>Aksesuar</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Aksesuar</strong>&Ccedil;anta, &ccedil;orap, bileklik ve tamamlay&#305;c&#305; spor aksesuarlar burada olacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-AK-001</div></div></article>
-      <article class="category-card category-anchor" id="erkek-boxer"><div class="category-head"><p class="category-kicker">Erkek Spor</p><h3>Boxer</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Boxer</strong>Erkek i&ccedil; giyim taraf&#305;nda daha temiz ve net kategori olarak boxer kulland&#305;m.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-BX-001</div></div></article>
+      <article class="category-card category-anchor" id="erkek-tops"><div class="category-head"><p class="category-kicker">Erkek</p><h3>Tops</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Erkek Tops</strong>T-shirt, atlet, sweatshirt ve hafif performans &uuml;stleri bu ba&#351;l&#305;k alt&#305;nda konumlanacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-TP-001</div></div></article>
+      <article class="category-card category-anchor" id="erkek-bottoms"><div class="category-head"><p class="category-kicker">Erkek</p><h3>Bottoms</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Erkek Bottoms</strong>&#350;ort, e&#351;ofman ve hareket odakl&#305; alt siluetler bu alanda toplanacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-BT-001</div></div></article>
+      <article class="category-card category-anchor" id="erkek-essentials"><div class="category-head"><p class="category-kicker">Erkek</p><h3>Essentials</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Erkek Essentials</strong>Aksesuarlar, temel tamamlay&#305;c&#305;lar ve koleksiyonun g&uuml;nl&uuml;k kullan&#305;m taraf&#305;n&#305; destekleyen se&ccedil;kiler burada yer alacak.</div></div><span class="category-meta">Haz&#305;r Alan</span><div class="code-line">Kod Alan&#305;: DC-E-ES-001</div></div></article>
     </section>
 
     <section class="contact-hub">
       <div class="section-heading">
-        <p class="eyebrow">Erkek Spor Deste&#287;i</p>
-        <h2>Ba&#287;lant&#305; alanlar&#305; g&ouml;r&uuml;n&uuml;r, detaylar sonra eklenecek</h2>
+        <h2>&#304;leti&#351;im</h2>
       </div>
       <div class="contact-grid">
         <article class="contact-link-card">
           <strong>WhatsApp</strong>
-          <p>Erkek spor koleksiyonu i&ccedil;in ana ileti&#351;im alan&#305; burada duracak.</p>
+          <p>Erkek koleksiyonundaki &uuml;r&uuml;nler, detaylar ve se&ccedil;kiler i&ccedil;in bizimle do&#287;rudan WhatsApp &uuml;zerinden ileti&#351;ime ge&ccedil;ebilirsin.</p>
           <a href="https://wa.me/905326491694?text=Merhaba%20D-C%C3%AAl%C3%AA%2C%20erkek%20spor%20urunleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Yaz</a>
-        </article>
-        <article class="contact-link-card">
-          <strong>Telefon</strong>
-          <p>Sayfa i&ccedil;inden i&#351;lem olmayacak; kullan&#305;c&#305; do&#287;rudan numaraya y&ouml;nlenecek.</p>
-          <a href="tel:+905326491694">+90 532 649 1694</a>
-        </article>
-        <article class="contact-link-card">
-          <strong>Instagram</strong>
-          <p>Yeni erkek spor seri payla&#351;&#305;mlar&#305; i&ccedil;in haz&#305;r alan.</p>
-          <span>Ba&#287;lant&#305; daha sonra eklenecek</span>
-        </article>
-        <article class="contact-link-card">
-          <strong>&Uuml;r&uuml;n Kodu</strong>
-          <p>Her kategoriye ayr&#305; kod mant&#305;&#287;&#305; kuruldu.</p>
-          <span class="code-line">Erkek &Ouml;rnek: DC-E-001</span>
-        </article>
-      </div>
-    </section>
-
-    <section class="faq-section">
-      <div class="section-heading">
-        <p class="eyebrow">K&#305;sa Bilgi</p>
-        <h2>Erkek spor taraf&#305;nda neler haz&#305;r?</h2>
-      </div>
-      <div class="faq-grid">
-        <article class="faq-card">
-          <strong>Foto&#287;raf yoksa ne olur?</strong>
-          <p>Alanlar haz&#305;r tutulur, g&ouml;rsel geldi&#287;inde do&#287;rudan ilgili spor kutusuna yerle&#351;tirilir.</p>
-        </article>
-        <article class="faq-card">
-          <strong>Sipari&#351; sistemi var m&#305;?</strong>
-          <p>Hay&#305;r. Bu sayfa sadece spor vitrin ve y&ouml;nlendirme mant&#305;&#287;&#305;yla &ccedil;al&#305;&#351;&#305;r.</p>
-        </article>
-        <article class="faq-card">
-          <strong>Bilgi nas&#305;l verilecek?</strong>
-          <p>Fiyat, beden ve teslimat mant&#305;&#287;&#305; birebir ileti&#351;im &uuml;zerinden payla&#351;&#305;l&#305;r.</p>
         </article>
       </div>
     </section>
@@ -187,29 +125,46 @@
   <footer class="site-footer">
     <div class="footer-left">
       <p>D-C&ecirc;l&ecirc;</p>
-      <span>Daban-C&ecirc;l&ecirc; | Erkek spor koleksiyonu yerle&#351;im sayfas&#305;</span>
+      <span>Daban-C&ecirc;l&ecirc; | Hasan Semih Karadaban &amp; Melih Karadaban</span>
       <span>&copy; 2026 Daban-C&ecirc;l&ecirc;. T&uuml;m haklar&#305; sakl&#305;d&#305;r.</span>
     </div>
     <div class="footer-right">
-      <div class="footer-links">
-        <a href="index.html">Ana Sayfa</a>
-        <a href="kadin.html">Kad&#305;n Spor</a>
-        <a href="about.html">Hakk&#305;m&#305;zda</a>
-        <a href="lookbook.html">Lookbook</a>
-        <a href="blog.html">Blog</a>
-        <a href="sss.html">SSS</a>
-        <a href="is-birligi.html">&#304;&#351; Birli&#287;i</a>
-        <a href="iletisim.html">&#304;leti&#351;im</a>
-        <a href="kvkk-aydinlatma.html">Ayd&#305;nlatma Metni</a>
-        <a href="gizlilik-politikasi.html">Gizlilik Politikas&#305;</a>
-        <a href="cerez-politikasi.html">&Ccedil;erez Politikas&#305;</a>
-        <a href="kullanim-sartlari.html">Kullan&#305;m &#350;artlar&#305;</a>
-        <a href="https://wa.me/905326491694?text=Merhaba%20D-C%C3%AAl%C3%AA%2C%20erkek%20spor%20urunleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        <span>E-Posta</span>
-        <span>Instagram</span>
+      <div class="footer-nav-groups">
+        <div>
+          <p class="footer-group-title">Site</p>
+          <div class="footer-site-columns">
+            <div class="footer-links">
+              <a href="index.html">Ana Sayfa</a>
+              <a href="erkek.html">Erkek</a>
+              <a href="kadin.html">Kad&#305;n</a>
+              <a href="lookbook.html">Lookbook</a>
+              <a href="blog.html">Blog</a>
+            </div>
+            <div class="footer-links">
+              <a href="about.html">Hakk&#305;m&#305;zda</a>
+              <a href="iletisim.html">&#304;leti&#351;im</a>
+              <a href="is-birligi.html">&#304;&#351; Birli&#287;i</a>
+              <a href="sss.html">SSS</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="footer-group-title">Yasal</p>
+          <div class="footer-links footer-links-legal">
+            <a href="kvkk-aydinlatma.html">Ayd&#305;nlatma Metni</a>
+            <a href="gizlilik-politikasi.html">Gizlilik Politikas&#305;</a>
+            <a href="cerez-politikasi.html">&Ccedil;erez Politikas&#305;</a>
+            <a href="kullanim-sartlari.html">Kullan&#305;m &#350;artlar&#305;</a>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
+  <div class="copyright-strip">
+    <span>&copy; 2026 Daban-C&ecirc;l&ecirc;. T&uuml;m haklar&#305; sakl&#305;d&#305;r.</span>
+    <span>Logo, tasar&#305;m ve i&ccedil;erikler izinsiz kullan&#305;lamaz.</span>
+    <span>Designed by HSK ⟡ 𐱅𐰇𐰼𐰰</span>
+  </div>
 
   <a class="floating-whatsapp" href="https://wa.me/905326491694?text=Merhaba%20D-C%C3%AAl%C3%AA%2C%20erkek%20spor%20urunleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile &#304;leti&#351;im</a>
   <div class="cookie-notice" role="status">
