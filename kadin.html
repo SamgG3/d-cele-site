@@ -27,38 +27,64 @@
 <body>
     <header class="site-header">
     <a class="brand brand-home-link" href="index.html" onclick="sessionStorage.setItem('dcIntro','1')">
-      <img class="brand-logo" src="assets/logo-dc-symbol.png" alt="Daban-C&ecirc;l&ecirc; DC logosu">
-      <span class="brand-text">D-C&ecirc;l&ecirc;</span>
+      <img class="brand-logo" src="assets/logo-dc-symbol.png" alt="Daban-Cêlê DC logosu">
+      <span class="brand-text">D-Cêlê</span>
     </a>
     <nav class="nav">
       <a class="nav-link" href="index.html">Ana Sayfa</a>
       <div class="nav-item dropdown">
         <a class="dropdown-toggle" href="erkek.html">Erkek <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
+        <div class="dropdown-panel nested-panel">
           <p class="dropdown-label">Erkek Kategorileri</p>
-          <div class="dropdown-grid">
-            <a href="erkek.html#erkek-tops">Tops</a>
-            <a href="erkek.html#erkek-bottoms">Bottoms</a>
-            <a href="erkek.html#erkek-essentials">Essentials</a>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-tshirt">T-shirt</a><a href="erkek.html#erkek-atlet">Atlet</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-sort">Şort</a><a href="erkek.html#erkek-tayt">Tayt</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-boxer">Boxer</a><a href="erkek.html#erkek-corap">Çorap</a><a href="erkek.html#erkek-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="nav-item dropdown">
-        <a class="dropdown-toggle active-section" href="kadin.html">Kad&#305;n <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
-          <p class="dropdown-label">Kad&#305;n Kategorileri</p>
-          <div class="dropdown-grid">
-            <a href="kadin.html#kadin-tops">Tops</a>
-            <a href="kadin.html#kadin-bottoms">Bottoms</a>
-            <a href="kadin.html#kadin-essentials">Essentials</a>
+        <a class="dropdown-toggle active-section" href="kadin.html">Kadın <span class="dropdown-caret">&#9662;</span></a>
+        <div class="dropdown-panel nested-panel">
+          <p class="dropdown-label">Kadın Kategorileri</p>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-crop">Crop</a><a href="kadin.html#kadin-tshirt">T-shirt</a><a href="kadin.html#kadin-atlet">Atlet</a><a href="kadin.html#kadin-spor-bra">Spor Bra</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-tayt">Tayt</a><a href="kadin.html#kadin-biker-sort">Biker Şort</a><a href="kadin.html#kadin-sort">Şort</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-ic-giyim">İç giyim</a><a href="kadin.html#kadin-corap">Çorap</a><a href="kadin.html#kadin-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <a class="nav-link" href="about.html">Hakk&#305;m&#305;zda</a>
+      <a class="nav-link" href="about.html">Hakkımızda</a>
       <a class="nav-link" href="lookbook.html">Lookbook</a>
       <a class="nav-link" href="blog.html">Blog</a>
       <a class="nav-link" href="sss.html">SSS</a>
-      <a class="nav-link" href="iletisim.html">&#304;leti&#351;im</a>
+      <a class="nav-link" href="iletisim.html">İletişim</a>
     </nav>
     <div class="header-actions">
       <a class="nav-lang" href="en/women.html">EN</a>
@@ -66,38 +92,68 @@
     </div>
 
     <details class="mobile-nav">
-      <summary>Men&uuml;y&uuml; A&ccedil;</summary>
+      <summary>Menüyü Aç</summary>
       <div class="mobile-nav-panel">
         <div class="mobile-nav-group">
           <strong>Genel</strong>
           <div class="mobile-nav-links">
             <a href="index.html">Ana Sayfa</a>
-            <a href="erkek.html">Erkek</a>
-            <a href="kadin.html">Kad&#305;n</a>
-            <a href="about.html">Hakk&#305;m&#305;zda</a>
+            <a href="about.html">Hakkımızda</a>
             <a href="lookbook.html">Lookbook</a>
             <a href="blog.html">Blog</a>
             <a href="sss.html">SSS</a>
-            <a href="iletisim.html">&#304;leti&#351;im</a>
+            <a href="iletisim.html">İletişim</a>
             <a href="en/women.html">English</a>
           </div>
         </div>
-        <div class="mobile-nav-group">
-          <strong>Erkek</strong>
-          <div class="mobile-nav-links">
-            <a href="erkek.html#erkek-tops">Tops</a>
-            <a href="erkek.html#erkek-bottoms">Bottoms</a>
-            <a href="erkek.html#erkek-essentials">Essentials</a>
+        <details class="mobile-subnav">
+          <summary>Erkek</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-tops">Tops</a>
+                <a href="erkek.html#erkek-tshirt">T-shirt</a><a href="erkek.html#erkek-atlet">Atlet</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-bottoms">Bottoms</a>
+                <a href="erkek.html#erkek-sort">Şort</a><a href="erkek.html#erkek-tayt">Tayt</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-essentials">Essentials</a>
+                <a href="erkek.html#erkek-boxer">Boxer</a><a href="erkek.html#erkek-corap">Çorap</a><a href="erkek.html#erkek-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
-        <div class="mobile-nav-group">
-          <strong>Kad&#305;n</strong>
-          <div class="mobile-nav-links">
-            <a href="kadin.html#kadin-tops">Tops</a>
-            <a href="kadin.html#kadin-bottoms">Bottoms</a>
-            <a href="kadin.html#kadin-essentials">Essentials</a>
+        </details>
+        <details class="mobile-subnav">
+          <summary>Kadın</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-tops">Tops</a>
+                <a href="kadin.html#kadin-crop">Crop</a><a href="kadin.html#kadin-tshirt">T-shirt</a><a href="kadin.html#kadin-atlet">Atlet</a><a href="kadin.html#kadin-spor-bra">Spor Bra</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-bottoms">Bottoms</a>
+                <a href="kadin.html#kadin-tayt">Tayt</a><a href="kadin.html#kadin-biker-sort">Biker Şort</a><a href="kadin.html#kadin-sort">Şort</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-essentials">Essentials</a>
+                <a href="kadin.html#kadin-ic-giyim">İç giyim</a><a href="kadin.html#kadin-corap">Çorap</a><a href="kadin.html#kadin-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
+        </details>
       </div>
     </details>
   </header>
@@ -121,22 +177,57 @@
       </div>
     </section>
 
-    <section class="subpage-grid">
-      <article class="category-card category-anchor" id="kadin-tops"><div class="category-head"><p class="category-kicker">Kad&#305;n</p><h3>Tops</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Kad&#305;n Tops</strong>Crop top, spor bra, t-shirt, sweatshirt ve hafif performans &uuml;stleri bu yap&#305; alt&#305;nda konumlanacak.</div></div><span class="category-meta">&Uuml;r&uuml;n Kart&#305; &#350;ablonu</span><div class="code-line">Kod Standard&#305;: DC-W-TP-001</div></div></article>
-      <article class="category-card category-anchor" id="kadin-bottoms"><div class="category-head"><p class="category-kicker">Kad&#305;n</p><h3>Bottoms</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Kad&#305;n Bottoms</strong>Tayt, biker &#351;ort ve aktif alt siluetler bu alanda daha derli toplu bir sunumla yer alacak.</div></div><span class="category-meta">&Uuml;r&uuml;n Kart&#305; &#350;ablonu</span><div class="code-line">Kod Standard&#305;: DC-W-BT-001</div></div></article>
-      <article class="category-card category-anchor" id="kadin-essentials"><div class="category-head"><p class="category-kicker">Kad&#305;n</p><h3>Essentials</h3></div><div class="category-body"><div class="placeholder-photo"><div><strong>Kad&#305;n Essentials</strong>Aksesuarlar ve st&uuml;dyo odakl&#305; temel par&ccedil;alar koleksiyonun g&uuml;nl&uuml;k kullan&#305;m taraf&#305;n&#305; desteklemek i&ccedil;in burada toplanacak.</div></div><span class="category-meta">&Uuml;r&uuml;n Kart&#305; &#350;ablonu</span><div class="code-line">Kod Standard&#305;: DC-W-ES-001</div></div></article>
+        <section class="subpage-grid">
+      <article class="category-card category-anchor" id="kadin-tops">
+        <div class="category-head"><p class="category-kicker">Kadın</p><h3>Tops</h3></div>
+        <div class="category-body">
+          <div class="placeholder-photo"><div><strong>Kadın Tops</strong>Crop, t-shirt, atlet ve spor bra çizgisi aktif giyimin üst katmanını netleştirir.</div></div>
+          <div class="category-tags">
+            <span id="kadin-crop">Crop</span>
+            <span id="kadin-tshirt">T-shirt</span>
+            <span id="kadin-atlet">Atlet</span>
+            <span id="kadin-spor-bra">Spor Bra</span>
+          </div>
+          <span class="category-meta">Ürün Kartı Şablonu</span>
+          <div class="code-line">Kod Standardı: DC-W-TP-001</div>
+        </div>
+      </article>
+      <article class="category-card category-anchor" id="kadin-bottoms">
+        <div class="category-head"><p class="category-kicker">Kadın</p><h3>Bottoms</h3></div>
+        <div class="category-body">
+          <div class="placeholder-photo"><div><strong>Kadın Bottoms</strong>Tayt, biker şort ve şort seçkileri hareket özgürlüğünü güçlü bir görünümle dengeler.</div></div>
+          <div class="category-tags">
+            <span id="kadin-tayt">Tayt</span>
+            <span id="kadin-biker-sort">Biker Şort</span>
+            <span id="kadin-sort">Şort</span>
+          </div>
+          <span class="category-meta">Ürün Kartı Şablonu</span>
+          <div class="code-line">Kod Standardı: DC-W-BT-001</div>
+        </div>
+      </article>
+      <article class="category-card category-anchor" id="kadin-essentials">
+        <div class="category-head"><p class="category-kicker">Kadın</p><h3>Essentials</h3></div>
+        <div class="category-body">
+          <div class="placeholder-photo"><div><strong>Kadın Essentials</strong>İç giyim, çorap ve cap seçkileri günlük ritmi tamamlayan temel parçaları toplar.</div></div>
+          <div class="category-tags">
+            <span id="kadin-ic-giyim">İç giyim</span>
+            <span id="kadin-corap">Çorap</span>
+            <span id="kadin-cap">Cap</span>
+          </div>
+          <span class="category-meta">Ürün Kartı Şablonu</span>
+          <div class="code-line">Kod Standardı: DC-W-ES-001</div>
+        </div>
+      </article>
     </section>
 
-    <section class="contact-hub">
-      <div class="section-heading">
-        <h2>&#304;leti&#351;im</h2>
-      </div>
-      <div class="contact-grid">
-        <article class="contact-link-card">
-          <strong>WhatsApp</strong>
-          <p>Kad&#305;n koleksiyonundaki &uuml;r&uuml;nler, detaylar ve se&ccedil;kiler i&ccedil;in bizimle do&#287;rudan WhatsApp &uuml;zerinden ileti&#351;ime ge&ccedil;ebilirsin.</p>
-          <a href="https://wa.me/905326491694?text=Merhaba%20D-C%C3%AAl%C3%AA%2C%20kadin%20spor%20urunleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Yaz</a>
-        </article>
+        <section class="contact-hub compact-contact-hub">
+      <div class="contact-inline-card">
+        <div>
+          <p class="contact-label">İletişim</p>
+          <strong>Doğrudan iletişim</strong>
+          <p>Ürün detayları, kategori yönlendirmesi ve yeni seçkiler için kadın koleksiyonu tarafında doğrudan WhatsApp üzerinden iletişime geçebilirsin.</p>
+        </div>
+        <a href="https://wa.me/905326491694?text=Merhaba%20D-C%C3%AAl%C3%AA%2C%20kadin%20spor%20urunleri%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer">WhatsApp ile Yaz</a>
       </div>
     </section>
   </main>

@@ -27,30 +27,56 @@
 <body>
   <header class="site-header">
     <a class="brand brand-home-link" href="index.html" onclick="sessionStorage.setItem('dcIntro','1')">
-      <img class="brand-logo" src="../assets/logo-dc-symbol.png" alt="Daban-C&ecirc;l&ecirc; DC logo">
-      <span class="brand-text">D-C&ecirc;l&ecirc;</span>
+      <img class="brand-logo" src="../assets/logo-dc-symbol.png" alt="Daban-Cêlê DC logo">
+      <span class="brand-text">D-Cêlê</span>
     </a>
     <nav class="nav">
       <a class="nav-link" href="index.html">Home</a>
       <div class="nav-item dropdown">
         <a class="dropdown-toggle" href="men.html">Men <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
+        <div class="dropdown-panel nested-panel">
           <p class="dropdown-label">Men Categories</p>
-          <div class="dropdown-grid">
-            <a href="men.html#men-tops">Tops</a>
-            <a href="men.html#men-bottoms">Bottoms</a>
-            <a href="men.html#men-essentials">Essentials</a>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="men.html#men-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="men.html#men-tshirt">T-shirt</a><a href="men.html#men-tank">Tank</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="men.html#men-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="men.html#men-shorts">Shorts</a><a href="men.html#men-tights">Tights</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="men.html#men-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="men.html#men-boxer">Boxer</a><a href="men.html#men-socks">Socks</a><a href="men.html#men-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="nav-item dropdown">
         <a class="dropdown-toggle" href="women.html">Women <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
+        <div class="dropdown-panel nested-panel">
           <p class="dropdown-label">Women Categories</p>
-          <div class="dropdown-grid">
-            <a href="women.html#women-tops">Tops</a>
-            <a href="women.html#women-bottoms">Bottoms</a>
-            <a href="women.html#women-essentials">Essentials</a>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="women.html#women-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="women.html#women-crop">Crop</a><a href="women.html#women-tshirt">T-shirt</a><a href="women.html#women-tank">Tank</a><a href="women.html#women-sports-bra">Sports Bra</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="women.html#women-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="women.html#women-leggings">Leggings</a><a href="women.html#women-biker-shorts">Biker Shorts</a><a href="women.html#women-shorts">Shorts</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="women.html#women-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="women.html#women-underwear">Underwear</a><a href="women.html#women-socks">Socks</a><a href="women.html#women-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -72,80 +98,110 @@
           <strong>General</strong>
           <div class="mobile-nav-links">
             <a href="index.html">Home</a>
-            <a href="men.html">Men</a>
-            <a href="women.html">Women</a>
             <a href="about.html">About</a>
             <a href="lookbook.html">Lookbook</a>
             <a href="blog.html">Blog</a>
             <a href="faq.html">FAQ</a>
             <a href="contact.html">Contact</a>
-            <a href="../about.html">Turkish</a>
+            <a href="../about.html">Türkçe</a>
           </div>
         </div>
-        <div class="mobile-nav-group">
-          <strong>Men</strong>
-          <div class="mobile-nav-links">
-            <a href="men.html#men-tops">Tops</a>
-            <a href="men.html#men-bottoms">Bottoms</a>
-            <a href="men.html#men-essentials">Essentials</a>
+        <details class="mobile-subnav">
+          <summary>Men</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="men.html#men-tops">Tops</a>
+                <a href="men.html#men-tshirt">T-shirt</a><a href="men.html#men-tank">Tank</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="men.html#men-bottoms">Bottoms</a>
+                <a href="men.html#men-shorts">Shorts</a><a href="men.html#men-tights">Tights</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="men.html#men-essentials">Essentials</a>
+                <a href="men.html#men-boxer">Boxer</a><a href="men.html#men-socks">Socks</a><a href="men.html#men-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
-        <div class="mobile-nav-group">
-          <strong>Women</strong>
-          <div class="mobile-nav-links">
-            <a href="women.html#women-tops">Tops</a>
-            <a href="women.html#women-bottoms">Bottoms</a>
-            <a href="women.html#women-essentials">Essentials</a>
+        </details>
+        <details class="mobile-subnav">
+          <summary>Women</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="women.html#women-tops">Tops</a>
+                <a href="women.html#women-crop">Crop</a><a href="women.html#women-tshirt">T-shirt</a><a href="women.html#women-tank">Tank</a><a href="women.html#women-sports-bra">Sports Bra</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="women.html#women-bottoms">Bottoms</a>
+                <a href="women.html#women-leggings">Leggings</a><a href="women.html#women-biker-shorts">Biker Shorts</a><a href="women.html#women-shorts">Shorts</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="women.html#women-essentials">Essentials</a>
+                <a href="women.html#women-underwear">Underwear</a><a href="women.html#women-socks">Socks</a><a href="women.html#women-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
+        </details>
       </div>
     </details>
   </header>
-  <main class="subpage-main about-main">
+    <main class="subpage-main about-main">
     <div class="subpage-marker"><span>Brand Foundation</span></div>
     <section class="subpage-hero">
       <div>
-        <p class="eyebrow">The Story of Daban-C&ecirc;l&ecirc;</p>
-        <h1 class="subpage-title">A brand story built by two brothers who chose discipline over ease</h1>
-        <p class="hero-text">Daban-C&ecirc;l&ecirc; was not shaped from inherited comfort. It grew from persistence, personal discipline, and a refusal to give up direction or character.</p>
+        <p class="eyebrow">The Story of Daban-Cêlê</p>
+        <h1 class="subpage-title">A brand mindset built to stay grounded and rise higher</h1>
+        <p class="hero-text">Daban-Cêlê was not born from a ready-made legacy. It was shaped by the persistence of two brothers who grew through difficulty.</p>
       </div>
       <div class="hero-panel">
         <strong>The Core Meaning</strong>
         <ul>
-          <li>Daban: standing firm and staying loyal to your roots</li>
-          <li>C&ecirc;l&ecirc;: rising, evolving, and shaping your own path</li>
-          <li>D-C: a signature of endurance and consistency</li>
+          <li>Daban: drawing strength from the ground beneath you</li>
+          <li>Cêlê: rising higher and pushing beyond limits</li>
+          <li>D-C: a clean signature for those who do not quit</li>
         </ul>
-        <span class="support-note">Prestige born from roots</span>
+        <span class="support-note">Stand grounded. Rise higher.</span>
       </div>
     </section>
 
     <section class="about-story-grid">
       <article class="origin-panel">
-        <p><strong>H. Semih and Melih KARADABAN, born in 1997 and 2001, grew up in the same home and shared the same difficult realities.</strong></p>
-        <p>What defined their early years was not comfort, but resilience. Instead of following an easy route, they learned how to keep moving through pressure, uncertainty, and long-term effort.</p>
-        <p>Clothing became more than necessity. It became a form of expression, a way of reflecting identity, discipline, and the raw energy they saw in real life and on the street.</p>
+        <p><strong>H. Semih and Melih KARADABAN, born in 1997 and 2001, grew up in the same home and shared the same life.</strong></p>
+        <p>Resources were limited, but their ambition stayed large. From an early age, life taught them effort instead of ease. What others called impossible simply meant a longer road to them.</p>
+        <p>For them, clothing was never just a necessity. It was a stance. On the street, on the court, in training—wherever movement existed, it became a way to express who you are.</p>
       </article>
       <article class="origin-panel">
-        <h3>More Than Clothing</h3>
-        <p><strong>Daban</strong> stands for grounding, memory, and not losing sight of where you come from. <strong>C&ecirc;l&ecirc;</strong> stands for elevation, transformation, and the will to define your own route.</p>
-        <p>D-C, in its simplest form, became the signature of those who stay upright and keep building. The brand was never assembled overnight; it carries patience, repetition, and lived experience in every layer.</p>
+        <h3>The Language of Motion</h3>
+        <p>Sweat, discipline, and repetition. Going a little further every day. Refusing to stop. Returning stronger. Daban-Cêlê was born from exactly that mindset.</p>
+        <p><strong>Daban</strong> stands for staying grounded and drawing strength from the ground beneath you. <strong>Cêlê</strong> stands for rising, pushing past your limits, and moving forward without pause.</p>
       </article>
       <article class="origin-panel quote">
-        <p>Daban-C&ecirc;l&ecirc; was built as a label for strong character, measured ambition, and people who move forward without abandoning their roots.</p>
+        <p>D-C… in its purest form, the signature of those who do not fall away, do not give up, and keep evolving.</p>
       </article>
     </section>
 
     <section class="about-longform">
       <div class="section-heading">
         <p class="eyebrow">Long Form</p>
-        <h2>Respect for the past, discipline in the present, and a lasting mark on what comes next</h2>
+        <h2>A brand built around effort, discipline, movement, and character</h2>
       </div>
       <div class="about-longform-panel">
-        <p>For Semih and Melih, the brand is not only about making garments. It is about honoring the past, carrying the present with discipline, and leaving behind something that keeps its meaning over time.</p>
-        <p>That is why Daban-C&ecirc;l&ecirc; treats design as more than surface. The collections are shaped to reflect steadiness, intention, and a clear activewear identity with a lasting visual signature.</p>
-        <p>Every detail is expected to hold the same tone: controlled form, athletic confidence, and a clean sense of purpose.</p>
-        <p class="about-closing">D-C&ecirc;l&ecirc; is for those who keep rising while staying grounded.</p>
+        <p>This brand was not built overnight. Every piece carries effort, every detail carries discipline, and every design carries motion. Daban-Cêlê stands not only for style, but for strength, endurance, and character.</p>
+        <p>For Semih and Melih, this is about more than making clothes. It is the story of those who keep improving, push their limits, and choose to begin again every day.</p>
+        <p>The same idea runs through every detail of the brand: building a sharper, stronger, and more consistent language for activewear.</p>
+        <p class="about-closing">D-Cêlê… Stand grounded. Rise higher.</p>
       </div>
     </section>
   </main>

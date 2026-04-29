@@ -47,38 +47,64 @@
 
     <header class="site-header">
     <a class="brand brand-home-link" href="index.html" onclick="sessionStorage.setItem('dcIntro','1')">
-      <img class="brand-logo" src="assets/logo-dc-symbol.png" alt="Daban-C&ecirc;l&ecirc; DC logosu">
-      <span class="brand-text">D-C&ecirc;l&ecirc;</span>
+      <img class="brand-logo" src="assets/logo-dc-symbol.png" alt="Daban-Cêlê DC logosu">
+      <span class="brand-text">D-Cêlê</span>
     </a>
     <nav class="nav">
       <a class="nav-link active-section" href="index.html">Ana Sayfa</a>
       <div class="nav-item dropdown">
         <a class="dropdown-toggle" href="erkek.html">Erkek <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
+        <div class="dropdown-panel nested-panel">
           <p class="dropdown-label">Erkek Kategorileri</p>
-          <div class="dropdown-grid">
-            <a href="erkek.html#erkek-tops">Tops</a>
-            <a href="erkek.html#erkek-bottoms">Bottoms</a>
-            <a href="erkek.html#erkek-essentials">Essentials</a>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-tshirt">T-shirt</a><a href="erkek.html#erkek-atlet">Atlet</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-sort">Şort</a><a href="erkek.html#erkek-tayt">Tayt</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="erkek.html#erkek-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="erkek.html#erkek-boxer">Boxer</a><a href="erkek.html#erkek-corap">Çorap</a><a href="erkek.html#erkek-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="nav-item dropdown">
-        <a class="dropdown-toggle" href="kadin.html">Kad&#305;n <span class="dropdown-caret">&#9662;</span></a>
-        <div class="dropdown-panel">
-          <p class="dropdown-label">Kad&#305;n Kategorileri</p>
-          <div class="dropdown-grid">
-            <a href="kadin.html#kadin-tops">Tops</a>
-            <a href="kadin.html#kadin-bottoms">Bottoms</a>
-            <a href="kadin.html#kadin-essentials">Essentials</a>
+        <a class="dropdown-toggle" href="kadin.html">Kadın <span class="dropdown-caret">&#9662;</span></a>
+        <div class="dropdown-panel nested-panel">
+          <p class="dropdown-label">Kadın Kategorileri</p>
+          <div class="dropdown-stack">
+            <div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-tops">Tops<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-crop">Crop</a><a href="kadin.html#kadin-tshirt">T-shirt</a><a href="kadin.html#kadin-atlet">Atlet</a><a href="kadin.html#kadin-spor-bra">Spor Bra</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-bottoms">Bottoms<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-tayt">Tayt</a><a href="kadin.html#kadin-biker-sort">Biker Şort</a><a href="kadin.html#kadin-sort">Şort</a>
+              </div>
+            </div><div class="dropdown-group">
+              <a class="dropdown-group-link" href="kadin.html#kadin-essentials">Essentials<span class="dropdown-group-caret">&#8250;</span></a>
+              <div class="dropdown-submenu">
+                <a href="kadin.html#kadin-ic-giyim">İç giyim</a><a href="kadin.html#kadin-corap">Çorap</a><a href="kadin.html#kadin-cap">Cap</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <a class="nav-link" href="about.html">Hakk&#305;m&#305;zda</a>
+      <a class="nav-link" href="about.html">Hakkımızda</a>
       <a class="nav-link" href="lookbook.html">Lookbook</a>
       <a class="nav-link" href="blog.html">Blog</a>
       <a class="nav-link" href="sss.html">SSS</a>
-      <a class="nav-link" href="iletisim.html">&#304;leti&#351;im</a>
+      <a class="nav-link" href="iletisim.html">İletişim</a>
     </nav>
     <div class="header-actions">
       <a class="nav-lang" href="en/index.html">EN</a>
@@ -86,38 +112,68 @@
     </div>
 
     <details class="mobile-nav">
-      <summary>Men&uuml;y&uuml; A&ccedil;</summary>
+      <summary>Menüyü Aç</summary>
       <div class="mobile-nav-panel">
         <div class="mobile-nav-group">
           <strong>Genel</strong>
           <div class="mobile-nav-links">
             <a href="index.html">Ana Sayfa</a>
-            <a href="erkek.html">Erkek</a>
-            <a href="kadin.html">Kad&#305;n</a>
-            <a href="about.html">Hakk&#305;m&#305;zda</a>
+            <a href="about.html">Hakkımızda</a>
             <a href="lookbook.html">Lookbook</a>
             <a href="blog.html">Blog</a>
             <a href="sss.html">SSS</a>
-            <a href="iletisim.html">&#304;leti&#351;im</a>
+            <a href="iletisim.html">İletişim</a>
             <a href="en/index.html">English</a>
           </div>
         </div>
-        <div class="mobile-nav-group">
-          <strong>Erkek</strong>
-          <div class="mobile-nav-links">
-            <a href="erkek.html#erkek-tops">Tops</a>
-            <a href="erkek.html#erkek-bottoms">Bottoms</a>
-            <a href="erkek.html#erkek-essentials">Essentials</a>
+        <details class="mobile-subnav">
+          <summary>Erkek</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-tops">Tops</a>
+                <a href="erkek.html#erkek-tshirt">T-shirt</a><a href="erkek.html#erkek-atlet">Atlet</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-bottoms">Bottoms</a>
+                <a href="erkek.html#erkek-sort">Şort</a><a href="erkek.html#erkek-tayt">Tayt</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="erkek.html#erkek-essentials">Essentials</a>
+                <a href="erkek.html#erkek-boxer">Boxer</a><a href="erkek.html#erkek-corap">Çorap</a><a href="erkek.html#erkek-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
-        <div class="mobile-nav-group">
-          <strong>Kad&#305;n</strong>
-          <div class="mobile-nav-links">
-            <a href="kadin.html#kadin-tops">Tops</a>
-            <a href="kadin.html#kadin-bottoms">Bottoms</a>
-            <a href="kadin.html#kadin-essentials">Essentials</a>
+        </details>
+        <details class="mobile-subnav">
+          <summary>Kadın</summary>
+          <div class="mobile-subnav-panel">
+            <details class="mobile-subnav-child">
+              <summary>Tops</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-tops">Tops</a>
+                <a href="kadin.html#kadin-crop">Crop</a><a href="kadin.html#kadin-tshirt">T-shirt</a><a href="kadin.html#kadin-atlet">Atlet</a><a href="kadin.html#kadin-spor-bra">Spor Bra</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Bottoms</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-bottoms">Bottoms</a>
+                <a href="kadin.html#kadin-tayt">Tayt</a><a href="kadin.html#kadin-biker-sort">Biker Şort</a><a href="kadin.html#kadin-sort">Şort</a>
+              </div>
+            </details><details class="mobile-subnav-child">
+              <summary>Essentials</summary>
+              <div class="mobile-subnav-links">
+                <a href="kadin.html#kadin-essentials">Essentials</a>
+                <a href="kadin.html#kadin-ic-giyim">İç giyim</a><a href="kadin.html#kadin-corap">Çorap</a><a href="kadin.html#kadin-cap">Cap</a>
+              </div>
+            </details>
           </div>
-        </div>
+        </details>
       </div>
     </details>
   </header>
@@ -182,14 +238,14 @@
           <p>Erkek Spor</p>
           <h3>G&uuml;&ccedil;l&uuml; duru&#351;, sade &ccedil;izgi</h3>
           <div class="placeholder-photo vitrin-photo">
-            <img src="assets/erkek-vitrin.jpeg" alt="D-C&ecirc;l&ecirc; erkek spor vitrini">
+            <img src="assets/season-men-longsleeve.jpeg" alt="D-C&ecirc;l&ecirc; erkek spor vitrini">
           </div>
         </article>
         <article class="homepage-card">
           <p>Kad&#305;n Spor</p>
           <h3>Net siluet, modern enerji</h3>
           <div class="placeholder-photo vitrin-photo">
-            <img src="assets/kadin-vitrin.jpeg" alt="D-C&ecirc;l&ecirc; kad&#305;n spor vitrini">
+            <img src="assets/season-women-creamset.jpeg" alt="D-C&ecirc;l&ecirc; kad&#305;n spor vitrini">
           </div>
         </article>
       </div>
@@ -302,28 +358,28 @@
       </div>
     </section>
 
-    <section class="origin-story">
+        <section class="origin-story">
       <div class="section-heading">
-        <p class="eyebrow">Marka Kurulu&#351;u</p>
-        <h2>Markan&#305;n karakteri, sportif bir duru&#351;la netle&#351;iyor</h2>
+        <p class="eyebrow">Marka Kuruluşu</p>
+        <h2>Zorlukların içinden büyüyen sportif bir duruş</h2>
       </div>
       <div class="origin-layout">
         <article class="origin-panel">
-          <p>Daban-C&ecirc;l&ecirc;, k&ouml;klerden gelen g&uuml;c&uuml; modern aktif giyim diliyle bulu&#351;turan bir marka vizyonuyla geli&#351;tirildi.</p>
-          <p>Bu vitrinde yaln&#305;zca &uuml;r&uuml;nler de&#287;il, markan&#305;n temsil etti&#287;i estetik tav&#305;r ve karakter duygusu da &ouml;ne &ccedil;&#305;k&#305;yor.</p>
+          <p><strong>Daban-Cêlê’nin hikayesi, hazır bir mirasın değil; zorlukların içinden büyüyen iki kardeşin inadının hikayesidir.</strong></p>
+          <p>H. Semih ve Melih KARADABAN aynı evde büyüdü, aynı hayatı paylaştı. İmkanlar sınırlıydı ama hayaller her zaman büyüktü; bu yüzden markanın omurgası rahatlıktan değil, mücadeleden kuruldu.</p>
         </article>
         <article class="origin-panel">
           <h3>Daban</h3>
-          <p>Yere sa&#287;lam basmay&#305;, k&ouml;klere ba&#287;l&#305; kalmay&#305; ve tutarl&#305; bir duru&#351;u temsil eder.</p>
-          <h3>C&ecirc;l&ecirc;</h3>
-          <p>Y&uuml;kseli&#351;i, geli&#351;imi ve kendi yolunu olu&#351;turma iradesini simgeler.</p>
+          <p>Yere sağlam basmayı, gücünü zeminden almayı ve karakterini korumayı temsil eder.</p>
+          <h3>Cêlê</h3>
+          <p>Yükselmeyi, sınırlarını aşmayı ve her gün biraz daha ileri gitmeyi simgeler.</p>
         </article>
         <article class="origin-panel quote">
-          <p>D-C, kararl&#305;l&#305;&#287;&#305;, istikrar&#305; ve zamans&#305;z duru&#351;u temsil eden yal&#305;n bir imza olarak konumlan&#305;r.</p>
+          <p>D-C… Düşmeyen, vazgeçmeyen ve sürekli gelişenlerin imzası.</p>
         </article>
       </div>
       <div class="origin-actions">
-        <a class="button secondary" href="about.html">Hikayenin Tamam&#305;n&#305; Oku</a>
+        <a class="button secondary" href="about.html">Hikayenin Tamamını Oku</a>
       </div>
     </section>
   </main>
