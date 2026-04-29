@@ -1,0 +1,54 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="70" x2="1080" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C0A07"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 250) rotate(90) scale(240 380)">
+      <stop stop-color="#D9B96E" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#D9B96E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="600" y1="120" x2="600" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3D992"/>
+      <stop offset="1" stop-color="#B88A39"/>
+    </linearGradient>
+    <filter id="shadow" x="246" y="48" width="708" height="534" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="26"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.788235 0 0 0 0 0.607843 0 0 0 0 0.266667 0 0 0 0.22 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity="0.18">
+    <circle cx="141" cy="116" r="2.5" fill="#D9B96E"/>
+    <circle cx="1044" cy="128" r="2" fill="#D9B96E"/>
+    <circle cx="1092" cy="456" r="2.5" fill="#D9B96E"/>
+    <circle cx="169" cy="522" r="1.5" fill="#D9B96E"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M600 116L621 144H579L600 116Z" fill="url(#gold)"/>
+    <path d="M593 143H607V260H593V143Z" fill="url(#gold)"/>
+    <path d="M555 164L576 177L548 194L555 164Z" fill="url(#gold)"/>
+    <path d="M645 164L652 194L624 177L645 164Z" fill="url(#gold)"/>
+    <path d="M520 212L548 228V250L512 230L520 212Z" fill="url(#gold)"/>
+    <path d="M680 212L688 230L652 250V228L680 212Z" fill="url(#gold)"/>
+    <path d="M507 474L547 458V487L515 510L507 474Z" fill="url(#gold)"/>
+    <path d="M693 474L685 510L653 487V458L693 474Z" fill="url(#gold)"/>
+    <path d="M548 512L576 492L576 528L548 545V512Z" fill="url(#gold)"/>
+    <path d="M652 512V545L624 528V492L652 512Z" fill="url(#gold)"/>
+    <path d="M593 260H607V515H593V260Z" fill="url(#gold)"/>
+    <path d="M420 204H556V235C537 248 521 265 509 286C495 309 488 338 488 373V426H420V204Z" fill="url(#gold)"/>
+    <path d="M420 204C453 204 480 214 503 233V276C485 258 462 249 435 249V380H488V426H370V253C370 220 387 204 420 204Z" fill="url(#gold)"/>
+    <path d="M780 204H644V235C663 248 679 265 691 286C705 309 712 338 712 373V426H780V204Z" fill="url(#gold)"/>
+    <path d="M780 204C747 204 720 214 697 233V276C715 258 738 249 765 249V380H712V426H830V253C830 220 813 204 780 204Z" fill="url(#gold)"/>
+  </g>
+  <text x="600" y="420" text-anchor="middle" fill="#F3D992" font-family="Cinzel, Georgia, serif" font-size="78" letter-spacing="8">D-CÊLÊ</text>
+  <text x="600" y="470" text-anchor="middle" fill="#D9B96E" font-family="Cinzel, Georgia, serif" font-size="26" letter-spacing="6">KÖKLERDEN DOĞAN PRESTİJ</text>
+  <text x="600" y="530" text-anchor="middle" fill="#AFA18A" font-family="Manrope, Arial, sans-serif" font-size="20" letter-spacing="4">PREMIUM ACTIVEWEAR</text>
+</svg>

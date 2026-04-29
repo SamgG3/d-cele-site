@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-C&ecirc;l&ecirc; | Premium Activewear</title>
+  <meta name="description" content="D-C&#234;l&#234; premium activewear showcase for men and women. Brand story, lookbook, editorial content, and direct contact.">
+  <!-- SEO Meta -->
+  <link rel="icon" type="image/png" href="../assets/logo-dc-symbol.png">
+  <link rel="apple-touch-icon" href="../assets/logo-dc-symbol.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="D-Cêlê">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="D-Cêlê | Premium Activewear">
+  <meta property="og:description" content="D-Cêlê premium activewear showcase for men and women. Brand story, lookbook, editorial content, and direct contact.">
+  <meta property="og:url" content="https://dabancele.vercel.app/en/index.html">
+  <meta property="og:image" content="https://dabancele.vercel.app/assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="D-Cêlê | Premium Activewear">
+  <meta name="twitter:description" content="D-Cêlê premium activewear showcase for men and women. Brand story, lookbook, editorial content, and direct contact.">
+  <meta name="twitter:image" content="https://dabancele.vercel.app/assets/og-image.svg">
+<script>
+    (function () {
+      var forceIntro = sessionStorage.getItem("dcIntro") === "1";
+      var navEntry = performance.getEntriesByType("navigation")[0];
+      var isReload = navEntry && navEntry.type === "reload";
+      if (forceIntro || isReload) {
+        document.documentElement.classList.add("show-intro");
+      }
+      sessionStorage.removeItem("dcIntro");
+    })();
+  </script>  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-intro" aria-label="D-C&ecirc;l&ecirc; opening animation">
+    <div class="site-intro-inner">
+      <img class="site-intro-logo" src="../assets/intro-logo-dc.png" alt="Daban-C&ecirc;l&ecirc; DC logo">
+      <p class="site-intro-brand">D-C&ecirc;l&ecirc;</p>
+      <span class="site-intro-line" aria-hidden="true"></span>
+      <p class="site-intro-tagline">Prestige born from roots</p>
+    </div>
+  </div>  <header class="site-header">
+    <a class="brand brand-home-link" href="index.html" onclick="sessionStorage.setItem('dcIntro','1')">
+      <img class="brand-logo" src="../assets/logo-dc-symbol.png" alt="Daban-C&ecirc;l&ecirc; DC logo">
+      <span class="brand-text">D-C&ecirc;l&ecirc;</span>
+    </a>
+    <nav class="nav">
+      <a class="nav-link active-section" href="index.html">Home</a>
+      <div class="nav-item dropdown">
+        <a class="dropdown-toggle" href="men.html">Men <span class="dropdown-caret">&#9662;</span></a>
+        <div class="dropdown-panel">
+          <p class="dropdown-label">Men Categories</p>
+          <div class="dropdown-grid">
+            <a href="men.html#men-tops">Tops</a>
+            <a href="men.html#men-bottoms">Bottoms</a>
+            <a href="men.html#men-essentials">Essentials</a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item dropdown">
+        <a class="dropdown-toggle" href="women.html">Women <span class="dropdown-caret">&#9662;</span></a>
+        <div class="dropdown-panel">
+          <p class="dropdown-label">Women Categories</p>
+          <div class="dropdown-grid">
+            <a href="women.html#women-tops">Tops</a>
+            <a href="women.html#women-bottoms">Bottoms</a>
+            <a href="women.html#women-essentials">Essentials</a>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="lookbook.html">Lookbook</a>
+      <a class="nav-link" href="blog.html">Blog</a>
+      <a class="nav-link" href="faq.html">FAQ</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="nav-lang" href="../index.html">TR</a>
+      <a class="nav-cta" href="about.html">Brand Story</a>
+    </div>
+
+    <details class="mobile-nav">
+      <summary>Open Menu</summary>
+      <div class="mobile-nav-panel">
+        <div class="mobile-nav-group">
+          <strong>General</strong>
+          <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="about.html">About</a>
+            <a href="lookbook.html">Lookbook</a>
+            <a href="blog.html">Blog</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+            <a href="../index.html">Turkish</a>
+          </div>
+        </div>
+        <div class="mobile-nav-group">
+          <strong>Men</strong>
+          <div class="mobile-nav-links">
+            <a href="men.html#men-tops">Tops</a>
+            <a href="men.html#men-bottoms">Bottoms</a>
+            <a href="men.html#men-essentials">Essentials</a>
+          </div>
+        </div>
+        <div class="mobile-nav-group">
+          <strong>Women</strong>
+          <div class="mobile-nav-links">
+            <a href="women.html#women-tops">Tops</a>
+            <a href="women.html#women-bottoms">Bottoms</a>
+            <a href="women.html#women-essentials">Essentials</a>
+          </div>
+        </div>
+      </div>
+    </details>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Daban-C&ecirc;l&ecirc; Sport Line</p>
+        <div class="crest">&#10022;</div>
+        <h1>D-C&Ecirc;L&Ecirc;</h1>
+        <p class="tagline">Prestige born from roots</p>
+        <p class="hero-text">
+          Daban-C&ecirc;l&ecirc; is a premium activewear label shaped by a clear visual discipline, modern silhouettes, and a confident sporting character.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="men.html">Men</a>
+          <a class="button secondary" href="women.html">Women</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <strong>Season Focus</strong>
+        <ul>
+          <li>Separate menswear and womenswear flow</li>
+          <li>Activewear-led, tightly edited selections</li>
+          <li>Clean, premium, timeless presentation</li>
+        </ul>
+        <span class="support-note">D-C&ecirc;l&ecirc; Sport Line</span>
+      </aside>
+    </section>
+
+    <section class="feature-strip">
+      <div><span>01</span> Limited drop rhythm</div>
+      <div><span>02</span> Unified product code system</div>
+      <div><span>03</span> Direct brand contact</div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="trust-grid">
+        <article class="trust-card">
+          <strong>First Drop Plan</strong>
+          <p>The first release will introduce a limited core selection built around the key activewear pieces of the men's and women's lines.</p>
+        </article>
+        <article class="trust-card">
+          <strong>Product Code Standard</strong>
+          <p>Each piece follows one shared format such as <strong>DC-M-TP-001</strong> or <strong>DC-W-BT-001</strong>, keeping category, collection, and sequence clear.</p>
+        </article>
+        <article class="trust-card">
+          <strong>Single Card System</strong>
+          <p>Once real products are added, every item will follow the same card structure: image, product name, code, category, and direct contact.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="homepage-layout">
+      <div class="section-heading">
+        <p class="eyebrow">Collections</p>
+        <h2>Season showcase</h2>
+      </div>
+      <div class="homepage-grid">
+        <article class="homepage-card">
+          <p>Men</p>
+          <h3>Strong attitude, clean silhouette</h3>
+          <div class="placeholder-photo vitrin-photo">
+            <img src="../assets/erkek-vitrin.jpeg" alt="D-C&ecirc;l&ecirc; men's activewear showcase">
+          </div>
+        </article>
+        <article class="homepage-card">
+          <p>Women</p>
+          <h3>Clear shape, modern energy</h3>
+          <div class="placeholder-photo vitrin-photo">
+            <img src="../assets/kadin-vitrin.jpeg" alt="D-C&ecirc;l&ecirc; women's activewear showcase">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-hub">
+      <div class="section-heading">
+        <p class="eyebrow">Lookbook</p>
+        <h2>Style direction</h2>
+      </div>
+      <div class="contact-grid">
+        <article class="contact-link-card">
+          <strong>Styling Sets</strong>
+          <p>Balanced combinations that carry active pieces into everyday rhythm without losing the brand's athletic core.</p>
+          <span>Street + training balance</span>
+        </article>
+        <article class="contact-link-card">
+          <strong>Street Frames</strong>
+          <p>Sharper visual references that show how the brand moves beyond a product shot into a real style language.</p>
+          <span>Real-use perspective</span>
+        </article>
+        <article class="contact-link-card">
+          <strong>Visual Inspiration</strong>
+          <p>A curated flow answering how D-C&ecirc;l&ecirc; should be worn, layered, and positioned.</p>
+          <a href="lookbook.html">Open Lookbook</a>
+        </article>
+        <article class="contact-link-card">
+          <strong>Next Drop</strong>
+          <p>The first drop will bring the men's and women's selections together through a measured launch built around a smaller number of stronger pieces.</p>
+          <span>First release notice</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="section-heading">
+        <p class="eyebrow">Editorial</p>
+        <h2>Selected content notes</h2>
+      </div>
+      <div class="faq-grid">
+        <article class="faq-card">
+          <strong>Style Notes</strong>
+          <p>Short editorial pieces that bring activewear aesthetics into daily rhythm with a cleaner perspective.</p>
+        </article>
+        <article class="faq-card">
+          <strong>Fabric &amp; Feel</strong>
+          <p>Core material notes focused on comfort, touch, flexibility, and the performance character of the pieces.</p>
+        </article>
+        <article class="faq-card">
+          <strong>Brand Perspective</strong>
+          <p>Concise texts that reinforce the design language and long-term direction behind Daban-C&ecirc;l&ecirc;.</p>
+        </article>
+      </div>
+      <div class="origin-actions">
+        <a class="button secondary" href="blog.html">View All Articles</a>
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story-panel">
+        <p class="eyebrow">Drop Notice</p>
+        <h2>The first drop will introduce the brand's activewear direction through a sharper, more selective release</h2>
+        <p>
+          The first Daban-C&ecirc;l&ecirc; drop is designed to open with a limited selection of core activewear pieces presented through the same visual discipline that defines the brand.
+        </p>
+        <p>
+          The goal is not volume for its own sake, but a stronger and more recognisable athletic identity with every release that follows.
+        </p>
+        <p class="signature">Daban-C&ecirc;l&ecirc;</p>
+        <p class="signature-sub">Prestige born from roots</p>
+      </div>
+
+      <div class="newsletter-panel">
+        <label>Direct Contact</label>
+        <p class="panel-text">
+          For collection, partnership, and brand-related enquiries, direct communication remains the clearest point of contact.
+        </p>
+        <div class="contact-card">
+          <p class="contact-label">WhatsApp</p>
+          <a href="https://wa.me/905326491694?text=Hello%20D-C%C3%AAl%C3%AA%2C%20I%20would%20like%20more%20information%20about%20the%20brand%20and%20products." target="_blank" rel="noopener noreferrer">Write on WhatsApp</a>
+        </div>
+        <span class="support-note">Direct Communication</span>
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story-panel">
+        <p class="eyebrow">Future Vision</p>
+        <h2>Selective growth, limited releases, and a steady long-term identity</h2>
+        <p>
+          Daban-C&ecirc;l&ecirc; is built around a lasting activewear character rather than short seasonal hype. For that reason, each collection evolves step by step with consistency and restraint.
+        </p>
+        <p>
+          New men's and women's selections will sharpen the rhythm of the brand through limited drops and a stronger visual world over time.
+        </p>
+        <p>
+          The showcase keeps product identity and brand language at the center while the communication model remains direct, clear, and controlled.
+        </p>
+      </div>
+      <div class="newsletter-panel">
+        <label>Elite &amp; Timeless</label>
+        <p class="panel-text">
+          Follow the next selection, new visual releases, and the future evolution of the brand from the earliest stage.
+        </p>
+        <div class="contact-card">
+          <p class="contact-label">Vision Page</p>
+          <a href="vision.html">See the Future Plan</a>
+        </div>
+        <span class="support-note">Community + Brand Growth</span>
+      </div>
+    </section>
+
+    <section class="origin-story">
+      <div class="section-heading">
+        <p class="eyebrow">Foundation</p>
+        <h2>The brand's character takes shape through a precise athletic attitude</h2>
+      </div>
+      <div class="origin-layout">
+        <article class="origin-panel">
+          <p>Daban-C&ecirc;l&ecirc; was developed with a vision that connects strength from the roots to a modern activewear language.</p>
+          <p>This showcase is not only about products; it is also about the aesthetic stance and character the brand chooses to represent.</p>
+        </article>
+        <article class="origin-panel">
+          <h3>Daban</h3>
+          <p>Represents standing firmly, staying grounded, and remaining loyal to where you come from.</p>
+          <h3>C&ecirc;l&ecirc;</h3>
+          <p>Represents elevation, development, and the will to shape your own direction.</p>
+        </article>
+        <article class="origin-panel quote">
+          <p>D-C stands as a simple signature of consistency, determination, and a timeless attitude.</p>
+        </article>
+      </div>
+      <div class="origin-actions">
+        <a class="button secondary" href="about.html">Read the Full Story</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-left">
+      <p>D-C&ecirc;l&ecirc;</p>
+      <span>Daban-C&ecirc;l&ecirc; | Hasan Semih Karadaban &amp; Melih Karadaban</span>
+      <span>&copy; 2026 Daban-C&ecirc;l&ecirc;. All rights reserved.</span>
+    </div>
+    <div class="footer-right">
+      <div class="footer-nav-groups">
+        <div>
+          <p class="footer-group-title">Site</p>
+          <div class="footer-site-columns">
+            <div class="footer-links">
+              <a href="index.html">Home</a>
+              <a href="men.html">Men</a>
+              <a href="women.html">Women</a>
+              <a href="lookbook.html">Lookbook</a>
+              <a href="blog.html">Blog</a>
+            </div>
+            <div class="footer-links">
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact</a>
+              <a href="press.html">Press &amp; Partnerships</a>
+              <a href="faq.html">FAQ</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="footer-group-title">Legal</p>
+          <div class="footer-links footer-links-legal">
+            <a href="privacy-notice.html">Privacy Notice</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="cookie-policy.html">Cookie Policy</a>
+            <a href="terms-of-use.html">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright-strip">
+    <span>&copy; 2026 Daban-C&ecirc;l&ecirc;. All rights reserved.</span>
+    <span>Logo, design, and content may not be used without permission.</span>
+    <span class="signature-mark">Designed by HSK ⟡ 𐱅𐰇𐰼𐰰</span>
+  </div>
+
+  <a class="floating-whatsapp" href="https://wa.me/905326491694?text=Hello%20D-C%C3%AAl%C3%AA%2C%20I%20would%20like%20more%20information%20about%20the%20brand%20and%20products." target="_blank" rel="noopener noreferrer">Contact on WhatsApp</a>
+  <script>
+    window.addEventListener("load", function () {
+      var intro = document.querySelector(".site-intro");
+      if (!document.documentElement.classList.contains("show-intro")) {
+        if (intro) intro.remove();
+        return;
+      }
+      if (!intro) return;
+      window.setTimeout(function () {
+        intro.setAttribute("aria-hidden", "true");
+        intro.remove();
+        document.documentElement.classList.remove("show-intro");
+      }, 3600);
+    });
+  </script>
+  <div class="cookie-notice" role="status">
+    <div class="cookie-box">
+      <p>This website does not use advertising, tracking, or analytics cookies. This notice only stores your viewing preference locally on your device.</p>
+      <a href="cookie-policy.html">Cookie Policy</a>
+      <button class="cookie-accept" type="button">Accept</button>
+    </div>
+  </div>
+  <script src="../cookie-consent.js"></script>
+</body>
+</html>
+
+
+
